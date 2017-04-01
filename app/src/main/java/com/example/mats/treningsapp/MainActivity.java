@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
                     return true;
                 case R.id.navigation_notifications:
                     mTextMessage.setText("My profile");
-                    return true;/*
+                    return true;
             }
             return false;
         }
@@ -43,3 +43,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
+
