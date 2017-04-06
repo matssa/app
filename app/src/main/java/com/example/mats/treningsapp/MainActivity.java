@@ -17,15 +17,18 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
-                case R.id.navigation_home:
-                    mTextMessage.setText("Programs");
+                case R.id.navigation_choose_program:
+                    mTextMessage.setText("Choose program");
                     return true;
-                case R.id.navigation_dashboard:
+                case R.id.navigation_create_new_program:
                     mTextMessage.setText("Add a program");
                     return true;
-                case R.id.navigation_notifications:
+                case R.id.navigation_statistics:
+                    mTextMessage.setText("Statistics");
+                    return true;
+                case R.id.navigation_my_profile:
                     mTextMessage.setText("My profile");
-                    return true;/*
+                    return true;
             }
             return false;
         }
