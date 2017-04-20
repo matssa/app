@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class ChooseProgram extends AppCompatActivity {
 
     private TextView mTextMessage;
 
@@ -18,17 +18,16 @@ public class MainActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_choose_program:
-                    mTextMessage.setText("Choose a program");
                     setContentView(R.layout.activity_screen_1);
                     return true;
                 case R.id.navigation_create_new_program:
-                    mTextMessage.setText("Add a program");
+                    setContentView(R.layout.activity_screen_2);
                     return true;
                 case R.id.navigation_statistics:
-                    mTextMessage.setText("Statistics");
+                    setContentView(R.layout.activity_screen_3);
                     return true;
                 case R.id.navigation_my_profile:
-                    mTextMessage.setText("My profile");
+                    setContentView(R.layout.activity_screen_4);
                     return true;
             }
             return false;

@@ -2,8 +2,9 @@
 <resources>
 
     <color name="colorPrimary">#673AB7</color>
-    <color name="colorPrimaryDark">#311B92</color>
+    <color name="colorPrimaryDark">#0c0043</color>
     <color name="colorAccent">#2196F3</color>
+    <color name="colorBackgroundBar">#229cff</color>
 
     <color name="screen1">#E91E63</color>
     <color name="screen2">#E99E63</color>
@@ -11,27 +12,15 @@
     <color name="screen4">#B9FE63</color>
 
     <color name="dot_dark_screen1">#C21858</color>
-    <color name="dot_dark_screen2">#C25E60</color>
-    <color name="dot_dark_screen3">#B9D920</color>
-    <color name="dot_dark_screen4">#99DD00</color>
 
     <color name="dot_light_screen1">#FF6070</color>
-    <color name="dot_light_screen2">#FFBB90</color>
-    <color name="dot_light_screen3">#FFFF80</color>
-    <color name="dot_light_screen4">#DDFF85</color>
 
     <array name="dot_active">
         <item>@color/dot_light_screen1</item>
-        <item>@color/dot_light_screen2</item>
-        <item>@color/dot_light_screen3</item>
-        <item>@color/dot_light_screen4</item>
     </array>
 
     <array name="dot_inactive">
         <item>@color/dot_dark_screen1</item>
-        <item>@color/dot_dark_screen2</item>
-        <item>@color/dot_dark_screen3</item>
-        <item>@color/dot_dark_screen4</item>
     </array>
 
 </resources>
